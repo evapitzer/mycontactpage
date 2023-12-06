@@ -1,0 +1,148 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(images/mountains-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+}
+
+.center {
+    width: 40%; /*this is for responsiveness*/ 
+	min-width: 300px; /*this is for responsiveness*/ 
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(244, 217, 236, 0.25); /*this uses opacity of 50% for the background color*/
+	text-align: center;
+	border:solid 4px white;
+	
+	/*border: 4px dashed white;*/ 
+}
+
+   
+#logo {
+    width: 50%; /*this is for responsiveness*/ 
+	margin-bottom: 16px;
+	border: 3px /*dashed red*/;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 2em;
+    margin: 0px auto 25px auto;
+    color: rgba(194,149,186);
+	margin-top: 2em;
+	letter-spacing: .2em;
+}
+
+h2 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgba(194,149,186);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	letter-spacing: .2em;
+}
+
+p {
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(194, 149, 186); 
+	letter-spacing: .2em; 
+}
+nav{
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.2em;
+	width: 80%;  /*this is for responsiveness*/ 
+	margin: 0 auto;
+	border: solid 4px white;
+	/*border: dashed turquoise;*/
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}   
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+a:hover{
+	color: rgb(0, 0, 0);
+	background: rgb(174, 91, 147); 
+}
