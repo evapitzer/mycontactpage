@@ -84,6 +84,7 @@ html, body {
 #logo {
     width: 50%; /*this is for responsiveness*/ 
 	margin-bottom: 16px;
+	margin-top: 2em;
 	border: 3px /*dashed red*/;
 	text-align: center;
 }
@@ -93,7 +94,7 @@ h1 {
 	font-size: 2em;
     margin: 0px auto 25px auto;
     color: rgba(194,149,186);
-	margin-top: 2em;
+	margin-top: 1.8em;
 	letter-spacing: .2em;
 }
 
